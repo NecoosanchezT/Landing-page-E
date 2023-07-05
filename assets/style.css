@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+:root {
+  --secundario: #753c22;
+  --color-letra: #d8d0dd;
+  --background: #55240e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* ==================== HEADER =========================== */
+header {
+  background: var(--secundario);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 10px 100px 10px 30px;
+  position: fixed;
+  width: 100%;
+}
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.navbar-list a {
+  color: var(--color-letra);
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}
+.logo {
+  width: 70px;
+  cursor: pointer;
+}
+
+/* =========================== HERO ================================ */
+main {
+  background: var(--background);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: var(--color-letra);
+}
+#hero {
+  max-width: 1200px;
+  margin-top: 80px;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.hero-info h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 60px;
+}
+
+.hero-info p {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.hero-info b {
+  font-weight: 800;
+}
+
+.hero-info a {
+  color: var(--secundario);
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  background: #d8d0dd;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 5px;
+  margin: 5px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-card {
+  background: var(--secundario);
+  padding: 20px;
+  border-radius: 15px;
+}
+.hero-card img {
+  width: 600px;
+  border-radius: 15px;
+}
+
+.info {
+  padding: 40px 0;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.info-card {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+  background: var(--secundario);
+  padding: 15px;
+  border-radius: 15px;
+  margin: 20px;
+  gap: 30px;
+}
+.info-card p {
+  font-size: 18px;
+}
+
+.info-card img {
+  background: #d8d0dd;
+  border-radius: 10px;
+}
