@@ -1,0 +1,39 @@
+/* tablet */
+@media (max-width: 992px) {
+  .hero-info {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-info h1 {
+    width: 90%;
+    font-size: 50px;
+  }
+  .hero-info p {
+    width: 90%;
+  }
+  .hero-card img {
+    width: 100%;
+  }
+  .hero-card {
+    width: 90%;
+  }
+  #hero {
+    padding-right: 30px;
+  }
+  .redes-sociales {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 30px 100px;
+    text-align: center;
+  }
+}
+/* celular */
+@media (max-width: 576px) {
+  .hero-card {
+    display: none;
+  }
+}
